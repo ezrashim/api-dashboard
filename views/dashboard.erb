@@ -18,8 +18,30 @@
     <p>
       <%= @weather.weather %>
       <%= @weather.temp %>
-
     </p>
+  </div>
+
+  <div class="callout primary">
+    <h3>Today's Events</h3>
+    <ul><% @events.display.each do |event| %>
+      <li><%=event%></li>
+      <% end %>
+    </ul>
+  </div>
+
+  <div class="callout primary">
+    <h3>Today's Top Stories</h3>
+    <ul> <% @news.display.each do |story| %>
+      <li>
+        <h4><%= story.title %></h4>
+        <% unless story.thumbnail == "default" %>
+        <img src="<%= story.thumbnail %>" alt="thumbnail"/>
+        <% end %>
+        <h5><%= story.abstract %></h5>
+        <a href="<%= story.url %>"><%= story.url %></a>
+        <% end %>
+      </li>
+    </ul>
   </div>
 
 </div>

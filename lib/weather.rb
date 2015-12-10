@@ -8,6 +8,7 @@ class Weather
     @ip = ip
     @data = get_weather["current_observation"]
     @data = default_weather if get_weather.nil?
+    @key = ENV["NYTIMES_API_KEY"]
   end
 
   def weather
@@ -29,7 +30,7 @@ class Weather
   end
 
   def uri_d
-    URI("http://api.wunderground.com/api/ed338a127312b2d4/conditions/q/MA/Boston.json")
+    URI("http://api.wunderground.com/api/#{key}/conditions/q/MA/Boston.json")
   end
 
   def uri

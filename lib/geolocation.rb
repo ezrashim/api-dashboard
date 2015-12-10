@@ -15,7 +15,7 @@ class Geolocation
   end
 
   def state
-    @data["region_name"]
+    @data["region_code"]
   end
 
   def country
