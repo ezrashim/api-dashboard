@@ -15,7 +15,7 @@ feature "location", vcr: true do
     visit "/"
     #save_and_open_page
     expect(page).to have_content("Boston")
-    expect(page).to have_content("Massachusetts")
+    expect(page).to have_content("MA")
     expect(page).to have_content("United States")
   end
 end

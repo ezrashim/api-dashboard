@@ -33,11 +33,11 @@ http_interactions:
       X-Ratelimit-Limit:
       - '10000'
       X-Ratelimit-Remaining:
-      - '9999'
+      - '9985'
       X-Ratelimit-Reset:
-      - '3600'
+      - '2691'
       Date:
-      - Mon, 07 Dec 2015 15:01:13 GMT
+      - Thu, 10 Dec 2015 22:40:16 GMT
       Content-Length:
       - '170'
     body:
@@ -45,7 +45,7 @@ http_interactions:
       string: |
         {"ip":"127.0.0.1","country_code":"","country_name":"","region_code":"","region_name":"","city":"","zip_code":"","time_zone":"","latitude":0,"longitude":0,"metro_code":0}
     http_version: 
-  recorded_at: Mon, 07 Dec 2015 15:01:13 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:16 GMT
 - request:
     method: get
     uri: http://api.wunderground.com/api/ed338a127312b2d4/conditions/q/autoip.json
@@ -73,27 +73,27 @@ http_interactions:
       Access-Control-Allow-Credentials:
       - 'true'
       X-Creationtime:
-      - '0.060'
+      - '0.071'
       Last-Modified:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:16 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Vary:
       - Accept-Encoding
       Expires:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:16 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:16 GMT
       Content-Length:
-      - '2669'
+      - '2628'
       Connection:
       - keep-alive
       Set-Cookie:
-      - DT=1449772732:22514:wufct-prod2; path=/; expires=Fri, 01-Jan-2020 00:00:00
+      - DT=1449787216:68772:wufct-prod2; path=/; expires=Fri, 01-Jan-2020 00:00:00
         GMT; domain=.wunderground.com
     body:
       encoding: UTF-8
@@ -105,17 +105,16 @@ http_interactions:
         {\n\t\t\"full\":\"North End waterfront Boston, Boston, Massachusetts\",\n\t\t\"city\":\"North
         End waterfront Boston, Boston\",\n\t\t\"state\":\"Massachusetts\",\n\t\t\"country\":\"US\",\n\t\t\"country_iso3166\":\"US\",\n\t\t\"latitude\":\"42.365311\",\n\t\t\"longitude\":\"-71.051521\",\n\t\t\"elevation\":\"39
         ft\"\n\t\t},\n\t\t\"estimated\": {\n\t\t},\n\t\t\"station_id\":\"KMABOSTO124\",\n\t\t\"observation_time\":\"Last
-        Updated on December 10, 1:38 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:28 -0500\",\n\t\t\"observation_epoch\":\"1449772708\",\n\t\t\"local_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:52 -0500\",\n\t\t\"local_epoch\":\"1449772732\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Mostly
-        Cloudy\",\n\t\t\"temperature_string\":\"56.5 F (13.6 C)\",\n\t\t\"temp_f\":56.5,\n\t\t\"temp_c\":13.6,\n\t\t\"relative_humidity\":\"75%\",\n\t\t\"wind_string\":\"From
-        the SW at 4.0 MPH Gusting to 4.9 MPH\",\n\t\t\"wind_dir\":\"SW\",\n\t\t\"wind_degrees\":215,\n\t\t\"wind_mph\":4.0,\n\t\t\"wind_gust_mph\":\"4.9\",\n\t\t\"wind_kph\":6.4,\n\t\t\"wind_gust_kph\":\"7.9\",\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.94\",\n\t\t\"pressure_trend\":\"-\",\n\t\t\"dewpoint_string\":\"49
-        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"56.5
-        F (13.6 C)\",\n\t\t\"feelslike_f\":\"56.5\",\n\t\t\"feelslike_c\":\"13.6\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"98\",\n\t\t\"UV\":\"1.0\",\"precip_1hr_string\":\"0.00
+        Updated on December 10, 5:40 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:03 -0500\",\n\t\t\"observation_epoch\":\"1449787203\",\n\t\t\"local_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:16 -0500\",\n\t\t\"local_epoch\":\"1449787216\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Scattered
+        Clouds\",\n\t\t\"temperature_string\":\"53.2 F (11.8 C)\",\n\t\t\"temp_f\":53.2,\n\t\t\"temp_c\":11.8,\n\t\t\"relative_humidity\":\"84%\",\n\t\t\"wind_string\":\"Calm\",\n\t\t\"wind_dir\":\"SSW\",\n\t\t\"wind_degrees\":192,\n\t\t\"wind_mph\":0.0,\n\t\t\"wind_gust_mph\":0,\n\t\t\"wind_kph\":0,\n\t\t\"wind_gust_kph\":0,\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.96\",\n\t\t\"pressure_trend\":\"0\",\n\t\t\"dewpoint_string\":\"49
+        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"53.2
+        F (11.8 C)\",\n\t\t\"feelslike_f\":\"53.2\",\n\t\t\"feelslike_c\":\"11.8\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"0\",\n\t\t\"UV\":\"0.0\",\"precip_1hr_string\":\"0.00
         in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\"
-        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
+        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 18:38:53 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:17 GMT
 - request:
     method: get
     uri: http://api.wunderground.com/api/ed338a127312b2d4/conditions/q/autoip.json
@@ -143,28 +142,28 @@ http_interactions:
       Access-Control-Allow-Credentials:
       - 'true'
       X-Creationtime:
-      - '0.060'
+      - '0.071'
       Last-Modified:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:16 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Vary:
       - Accept-Encoding
       Expires:
-      - Thu, 10 Dec 2015 18:38:53 GMT
+      - Thu, 10 Dec 2015 22:40:16 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Thu, 10 Dec 2015 18:38:53 GMT
+      - Thu, 10 Dec 2015 22:40:16 GMT
       Content-Length:
-      - '2669'
+      - '2628'
       Connection:
       - keep-alive
       Set-Cookie:
-      - DT=1449772732:16992:365-dell-c3; path=/; expires=Fri, 01-Jan-2020 00:00:00
-        GMT; domain=.wunderground.com
+      - DT=1449787216:21250:365-f7; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
     body:
       encoding: UTF-8
       string: "\n{\n  \"response\": {\n  \"version\":\"0.1\",\n  \"termsofService\":\"http://www.wunderground.com/weather/api/d/terms.html\",\n
@@ -175,17 +174,16 @@ http_interactions:
         {\n\t\t\"full\":\"North End waterfront Boston, Boston, Massachusetts\",\n\t\t\"city\":\"North
         End waterfront Boston, Boston\",\n\t\t\"state\":\"Massachusetts\",\n\t\t\"country\":\"US\",\n\t\t\"country_iso3166\":\"US\",\n\t\t\"latitude\":\"42.365311\",\n\t\t\"longitude\":\"-71.051521\",\n\t\t\"elevation\":\"39
         ft\"\n\t\t},\n\t\t\"estimated\": {\n\t\t},\n\t\t\"station_id\":\"KMABOSTO124\",\n\t\t\"observation_time\":\"Last
-        Updated on December 10, 1:38 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:28 -0500\",\n\t\t\"observation_epoch\":\"1449772708\",\n\t\t\"local_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:52 -0500\",\n\t\t\"local_epoch\":\"1449772732\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Mostly
-        Cloudy\",\n\t\t\"temperature_string\":\"56.5 F (13.6 C)\",\n\t\t\"temp_f\":56.5,\n\t\t\"temp_c\":13.6,\n\t\t\"relative_humidity\":\"75%\",\n\t\t\"wind_string\":\"From
-        the SW at 4.0 MPH Gusting to 4.9 MPH\",\n\t\t\"wind_dir\":\"SW\",\n\t\t\"wind_degrees\":215,\n\t\t\"wind_mph\":4.0,\n\t\t\"wind_gust_mph\":\"4.9\",\n\t\t\"wind_kph\":6.4,\n\t\t\"wind_gust_kph\":\"7.9\",\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.94\",\n\t\t\"pressure_trend\":\"-\",\n\t\t\"dewpoint_string\":\"49
-        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"56.5
-        F (13.6 C)\",\n\t\t\"feelslike_f\":\"56.5\",\n\t\t\"feelslike_c\":\"13.6\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"98\",\n\t\t\"UV\":\"1.0\",\"precip_1hr_string\":\"0.00
+        Updated on December 10, 5:40 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:03 -0500\",\n\t\t\"observation_epoch\":\"1449787203\",\n\t\t\"local_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:16 -0500\",\n\t\t\"local_epoch\":\"1449787216\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Scattered
+        Clouds\",\n\t\t\"temperature_string\":\"53.2 F (11.8 C)\",\n\t\t\"temp_f\":53.2,\n\t\t\"temp_c\":11.8,\n\t\t\"relative_humidity\":\"84%\",\n\t\t\"wind_string\":\"Calm\",\n\t\t\"wind_dir\":\"SSW\",\n\t\t\"wind_degrees\":192,\n\t\t\"wind_mph\":0.0,\n\t\t\"wind_gust_mph\":0,\n\t\t\"wind_kph\":0,\n\t\t\"wind_gust_kph\":0,\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.96\",\n\t\t\"pressure_trend\":\"0\",\n\t\t\"dewpoint_string\":\"49
+        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"53.2
+        F (11.8 C)\",\n\t\t\"feelslike_f\":\"53.2\",\n\t\t\"feelslike_c\":\"11.8\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"0\",\n\t\t\"UV\":\"0.0\",\"precip_1hr_string\":\"0.00
         in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\"
-        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
+        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 18:38:53 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:17 GMT
 - request:
     method: get
     uri: http://freegeoip.net/json/127.0.0.1
@@ -219,11 +217,11 @@ http_interactions:
       X-Ratelimit-Limit:
       - '10000'
       X-Ratelimit-Remaining:
-      - '9983'
+      - '9984'
       X-Ratelimit-Reset:
-      - '2688'
+      - '2690'
       Date:
-      - Thu, 10 Dec 2015 22:40:18 GMT
+      - Thu, 10 Dec 2015 22:40:17 GMT
       Content-Length:
       - '170'
     body:
@@ -231,7 +229,7 @@ http_interactions:
       string: |
         {"ip":"127.0.0.1","country_code":"","country_name":"","region_code":"","region_name":"","city":"","zip_code":"","time_zone":"","latitude":0,"longitude":0,"metro_code":0}
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 22:40:19 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:17 GMT
 - request:
     method: get
     uri: http://api.seatgeek.com/2/events?datetime_local.gte=2015-12-10&venue.city=Boston&venue.state=MA
@@ -267,11 +265,11 @@ http_interactions:
       Accept-Ranges:
       - none
       Date:
-      - Thu, 10 Dec 2015 22:40:18 GMT
+      - Thu, 10 Dec 2015 22:40:17 GMT
       X-Varnish:
-      - 1124598216 1124555060
+      - 1124598154 1124555060
       Age:
-      - '847'
+      - '845'
       Via:
       - 1.1 varnish
       Connection:
@@ -350,7 +348,7 @@ http_interactions:
         Massachusetts Ave.","timezone":"America/New_York","id":820},"short_title":"Joyce
         Moreno","datetime_utc":"2015-12-11T01:00:00","datetime_tbd":false}]}'
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 22:40:19 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:18 GMT
 - request:
     method: get
     uri: http://api.nytimes.com/svc/topstories/v1/home.json?api-key=86525eed4a3bdb9db188fa877ba76c63:14:73728927
@@ -372,11 +370,11 @@ http_interactions:
       message: OK
     headers:
       X-Mashery-Responder:
-      - prod-j-worker-atl-03.mashery.com
+      - prod-j-worker-atl-01.mashery.com
       X-Amz-Id-2:
-      - 4DGk4LypmNERUwCOrQYDDmg1X6XhWASntqHOZ6VPFuV7knc6sDmm9B93phV5SbmsWv5zhJ9OiNE=
+      - 2Ycr4P8cZ15AhsBhRRVTcKz171sV23oIzTttbXpJDXlyTUfEJ/dOP9JjhnW1l9GZqpl8vmqHfN4=
       X-Amz-Request-Id:
-      - 16D6367827764BBD
+      - 85FDE79F7F586AE0
       Date:
       - Thu, 10 Dec 2015 22:40:19 GMT
       Last-Modified:

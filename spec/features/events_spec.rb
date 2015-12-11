@@ -5,6 +5,6 @@ feature "events", vcr: true do
     visit '/'
 
     expect(page).to have_content("Today's Events")
-    expect(page).to have_content("")
+    expect(page).to have_content(/\w+ @ \w+ /)
   end
 end

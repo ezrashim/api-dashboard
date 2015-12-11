@@ -29,15 +29,15 @@ http_interactions:
       Content-Type:
       - application/json
       X-Database-Date:
-      - Wed, 02 Dec 2015 07:06:58 GMT
+      - Wed, 02 Dec 2015 07:06:47 GMT
       X-Ratelimit-Limit:
       - '10000'
       X-Ratelimit-Remaining:
-      - '9999'
+      - '9982'
       X-Ratelimit-Reset:
-      - '3600'
+      - '2688'
       Date:
-      - Mon, 07 Dec 2015 15:01:13 GMT
+      - Thu, 10 Dec 2015 22:40:19 GMT
       Content-Length:
       - '170'
     body:
@@ -45,7 +45,7 @@ http_interactions:
       string: |
         {"ip":"127.0.0.1","country_code":"","country_name":"","region_code":"","region_name":"","city":"","zip_code":"","time_zone":"","latitude":0,"longitude":0,"metro_code":0}
     http_version: 
-  recorded_at: Mon, 07 Dec 2015 15:01:13 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:20 GMT
 - request:
     method: get
     uri: http://api.wunderground.com/api/ed338a127312b2d4/conditions/q/autoip.json
@@ -73,28 +73,28 @@ http_interactions:
       Access-Control-Allow-Credentials:
       - 'true'
       X-Creationtime:
-      - '0.060'
+      - '0.084'
       Last-Modified:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:19 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Vary:
       - Accept-Encoding
       Expires:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:19 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:19 GMT
       Content-Length:
-      - '2669'
+      - '2628'
       Connection:
       - keep-alive
       Set-Cookie:
-      - DT=1449772732:22514:wufct-prod2; path=/; expires=Fri, 01-Jan-2020 00:00:00
-        GMT; domain=.wunderground.com
+      - DT=1449787219:30660:365-b10; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
     body:
       encoding: UTF-8
       string: "\n{\n  \"response\": {\n  \"version\":\"0.1\",\n  \"termsofService\":\"http://www.wunderground.com/weather/api/d/terms.html\",\n
@@ -105,17 +105,16 @@ http_interactions:
         {\n\t\t\"full\":\"North End waterfront Boston, Boston, Massachusetts\",\n\t\t\"city\":\"North
         End waterfront Boston, Boston\",\n\t\t\"state\":\"Massachusetts\",\n\t\t\"country\":\"US\",\n\t\t\"country_iso3166\":\"US\",\n\t\t\"latitude\":\"42.365311\",\n\t\t\"longitude\":\"-71.051521\",\n\t\t\"elevation\":\"39
         ft\"\n\t\t},\n\t\t\"estimated\": {\n\t\t},\n\t\t\"station_id\":\"KMABOSTO124\",\n\t\t\"observation_time\":\"Last
-        Updated on December 10, 1:38 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:28 -0500\",\n\t\t\"observation_epoch\":\"1449772708\",\n\t\t\"local_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:52 -0500\",\n\t\t\"local_epoch\":\"1449772732\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Mostly
-        Cloudy\",\n\t\t\"temperature_string\":\"56.5 F (13.6 C)\",\n\t\t\"temp_f\":56.5,\n\t\t\"temp_c\":13.6,\n\t\t\"relative_humidity\":\"75%\",\n\t\t\"wind_string\":\"From
-        the SW at 4.0 MPH Gusting to 4.9 MPH\",\n\t\t\"wind_dir\":\"SW\",\n\t\t\"wind_degrees\":215,\n\t\t\"wind_mph\":4.0,\n\t\t\"wind_gust_mph\":\"4.9\",\n\t\t\"wind_kph\":6.4,\n\t\t\"wind_gust_kph\":\"7.9\",\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.94\",\n\t\t\"pressure_trend\":\"-\",\n\t\t\"dewpoint_string\":\"49
-        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"56.5
-        F (13.6 C)\",\n\t\t\"feelslike_f\":\"56.5\",\n\t\t\"feelslike_c\":\"13.6\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"98\",\n\t\t\"UV\":\"1.0\",\"precip_1hr_string\":\"0.00
+        Updated on December 10, 5:40 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:03 -0500\",\n\t\t\"observation_epoch\":\"1449787203\",\n\t\t\"local_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:19 -0500\",\n\t\t\"local_epoch\":\"1449787219\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Scattered
+        Clouds\",\n\t\t\"temperature_string\":\"53.2 F (11.8 C)\",\n\t\t\"temp_f\":53.2,\n\t\t\"temp_c\":11.8,\n\t\t\"relative_humidity\":\"84%\",\n\t\t\"wind_string\":\"Calm\",\n\t\t\"wind_dir\":\"SSW\",\n\t\t\"wind_degrees\":192,\n\t\t\"wind_mph\":0.0,\n\t\t\"wind_gust_mph\":0,\n\t\t\"wind_kph\":0,\n\t\t\"wind_gust_kph\":0,\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.96\",\n\t\t\"pressure_trend\":\"0\",\n\t\t\"dewpoint_string\":\"49
+        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"53.2
+        F (11.8 C)\",\n\t\t\"feelslike_f\":\"53.2\",\n\t\t\"feelslike_c\":\"11.8\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"0\",\n\t\t\"UV\":\"0.0\",\"precip_1hr_string\":\"0.00
         in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\"
-        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
+        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 18:38:53 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:20 GMT
 - request:
     method: get
     uri: http://api.wunderground.com/api/ed338a127312b2d4/conditions/q/autoip.json
@@ -143,28 +142,28 @@ http_interactions:
       Access-Control-Allow-Credentials:
       - 'true'
       X-Creationtime:
-      - '0.060'
+      - '0.057'
       Last-Modified:
-      - Thu, 10 Dec 2015 18:38:52 GMT
+      - Thu, 10 Dec 2015 22:40:19 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Vary:
       - Accept-Encoding
       Expires:
-      - Thu, 10 Dec 2015 18:38:53 GMT
+      - Thu, 10 Dec 2015 22:40:19 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Thu, 10 Dec 2015 18:38:53 GMT
+      - Thu, 10 Dec 2015 22:40:19 GMT
       Content-Length:
-      - '2669'
+      - '2628'
       Connection:
       - keep-alive
       Set-Cookie:
-      - DT=1449772732:16992:365-dell-c3; path=/; expires=Fri, 01-Jan-2020 00:00:00
-        GMT; domain=.wunderground.com
+      - DT=1449787219:29469:365-w3; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
     body:
       encoding: UTF-8
       string: "\n{\n  \"response\": {\n  \"version\":\"0.1\",\n  \"termsofService\":\"http://www.wunderground.com/weather/api/d/terms.html\",\n
@@ -175,17 +174,16 @@ http_interactions:
         {\n\t\t\"full\":\"North End waterfront Boston, Boston, Massachusetts\",\n\t\t\"city\":\"North
         End waterfront Boston, Boston\",\n\t\t\"state\":\"Massachusetts\",\n\t\t\"country\":\"US\",\n\t\t\"country_iso3166\":\"US\",\n\t\t\"latitude\":\"42.365311\",\n\t\t\"longitude\":\"-71.051521\",\n\t\t\"elevation\":\"39
         ft\"\n\t\t},\n\t\t\"estimated\": {\n\t\t},\n\t\t\"station_id\":\"KMABOSTO124\",\n\t\t\"observation_time\":\"Last
-        Updated on December 10, 1:38 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:28 -0500\",\n\t\t\"observation_epoch\":\"1449772708\",\n\t\t\"local_time_rfc822\":\"Thu,
-        10 Dec 2015 13:38:52 -0500\",\n\t\t\"local_epoch\":\"1449772732\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Mostly
-        Cloudy\",\n\t\t\"temperature_string\":\"56.5 F (13.6 C)\",\n\t\t\"temp_f\":56.5,\n\t\t\"temp_c\":13.6,\n\t\t\"relative_humidity\":\"75%\",\n\t\t\"wind_string\":\"From
-        the SW at 4.0 MPH Gusting to 4.9 MPH\",\n\t\t\"wind_dir\":\"SW\",\n\t\t\"wind_degrees\":215,\n\t\t\"wind_mph\":4.0,\n\t\t\"wind_gust_mph\":\"4.9\",\n\t\t\"wind_kph\":6.4,\n\t\t\"wind_gust_kph\":\"7.9\",\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.94\",\n\t\t\"pressure_trend\":\"-\",\n\t\t\"dewpoint_string\":\"49
-        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"56.5
-        F (13.6 C)\",\n\t\t\"feelslike_f\":\"56.5\",\n\t\t\"feelslike_c\":\"13.6\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"98\",\n\t\t\"UV\":\"1.0\",\"precip_1hr_string\":\"0.00
+        Updated on December 10, 5:40 PM EST\",\n\t\t\"observation_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:03 -0500\",\n\t\t\"observation_epoch\":\"1449787203\",\n\t\t\"local_time_rfc822\":\"Thu,
+        10 Dec 2015 17:40:19 -0500\",\n\t\t\"local_epoch\":\"1449787219\",\n\t\t\"local_tz_short\":\"EST\",\n\t\t\"local_tz_long\":\"America/New_York\",\n\t\t\"local_tz_offset\":\"-0500\",\n\t\t\"weather\":\"Scattered
+        Clouds\",\n\t\t\"temperature_string\":\"53.2 F (11.8 C)\",\n\t\t\"temp_f\":53.2,\n\t\t\"temp_c\":11.8,\n\t\t\"relative_humidity\":\"84%\",\n\t\t\"wind_string\":\"Calm\",\n\t\t\"wind_dir\":\"SSW\",\n\t\t\"wind_degrees\":192,\n\t\t\"wind_mph\":0.0,\n\t\t\"wind_gust_mph\":0,\n\t\t\"wind_kph\":0,\n\t\t\"wind_gust_kph\":0,\n\t\t\"pressure_mb\":\"1014\",\n\t\t\"pressure_in\":\"29.96\",\n\t\t\"pressure_trend\":\"0\",\n\t\t\"dewpoint_string\":\"49
+        F (9 C)\",\n\t\t\"dewpoint_f\":49,\n\t\t\"dewpoint_c\":9,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"NA\",\n\t\t\"windchill_f\":\"NA\",\n\t\t\"windchill_c\":\"NA\",\n\t\t\"feelslike_string\":\"53.2
+        F (11.8 C)\",\n\t\t\"feelslike_f\":\"53.2\",\n\t\t\"feelslike_c\":\"11.8\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"0\",\n\t\t\"UV\":\"0.0\",\"precip_1hr_string\":\"0.00
         in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\"
-        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
+        0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/MA/Boston.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521\",\n\t\t\"nowcast\":\"\"\n\t}\n}\n"
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 18:38:53 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:20 GMT
 - request:
     method: get
     uri: http://freegeoip.net/json/127.0.0.1
@@ -219,11 +217,11 @@ http_interactions:
       X-Ratelimit-Limit:
       - '10000'
       X-Ratelimit-Remaining:
-      - '9983'
+      - '9981'
       X-Ratelimit-Reset:
-      - '2688'
+      - '2686'
       Date:
-      - Thu, 10 Dec 2015 22:40:18 GMT
+      - Thu, 10 Dec 2015 22:40:20 GMT
       Content-Length:
       - '170'
     body:
@@ -231,7 +229,7 @@ http_interactions:
       string: |
         {"ip":"127.0.0.1","country_code":"","country_name":"","region_code":"","region_name":"","city":"","zip_code":"","time_zone":"","latitude":0,"longitude":0,"metro_code":0}
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 22:40:19 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:21 GMT
 - request:
     method: get
     uri: http://api.seatgeek.com/2/events?datetime_local.gte=2015-12-10&venue.city=Boston&venue.state=MA
@@ -255,23 +253,21 @@ http_interactions:
       Server:
       - TornadoServer/3.2 (Gunicorn/18.0)
       Etag:
-      - '"c848fcc23b0530f549e3d4f0e9563b63f0fdc073"'
+      - '"98ac0054cd7e80bdd2961a75da7b7d35f18d06de"'
       Cache-Control:
       - max-age=1800
       Access-Control-Allow-Origin:
       - '*'
       Content-Type:
       - application/json
-      Content-Length:
-      - '3546'
-      Accept-Ranges:
-      - none
+      Transfer-Encoding:
+      - chunked
       Date:
-      - Thu, 10 Dec 2015 22:40:18 GMT
+      - Thu, 10 Dec 2015 22:40:21 GMT
       X-Varnish:
-      - 1124598216 1124555060
+      - '292384219'
       Age:
-      - '847'
+      - '0'
       Via:
       - 1.1 varnish
       Connection:
@@ -301,7 +297,7 @@ http_interactions:
         of Blues Boston","extended_address":"Boston, MA 02215","url":"https://seatgeek.com/venues/house-of-blues-boston/tickets/","country":"US","display_location":"Boston,
         MA","links":[],"slug":"house-of-blues-boston","state":"MA","score":0.63171,"postal_code":"02215","location":{"lat":42.2913,"lon":-71.0889},"address":"15
         Lansdowne St.","timezone":"America/New_York","id":517},"short_title":"Cole
-        Swindell","datetime_utc":"2015-12-11T00:00:00","datetime_tbd":false},{"links":[],"id":2832794,"stats":{"listing_count":78,"average_price":135.5,"lowest_price_good_deals":28.0,"lowest_price":28.0,"highest_price":5524.0},"title":"Jingle
+        Swindell","datetime_utc":"2015-12-11T00:00:00","datetime_tbd":false},{"links":[],"id":2832794,"stats":{"listing_count":68,"average_price":145.5,"lowest_price_good_deals":132.0,"lowest_price":56.0,"highest_price":5524.0},"title":"Jingle
         Ball with Calvin Harris, The Weeknd, Demi Lovato and more","announce_date":"2015-10-01T00:00:00","score":0.78962,"date_tbd":false,"type":"concert","datetime_local":"2015-12-10T19:00:00","visible_until_utc":"2015-12-11T04:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":51},"name":"Demi
         Lovato","short_name":"Demi Lovato","url":"https://seatgeek.com/demi-lovato-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/demi-lovato-6f68df/586/huge.jpg","home_venue_id":null,"slug":"demi-lovato","score":0.63223,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/demi-lovato-6f68df/586/huge.jpg"},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":586,"genres":[{"slug":"pop","primary":true,"name":"pop"}]},{"stats":{"event_count":8},"name":"Nick
         Jonas","short_name":"Nick Jonas","url":"https://seatgeek.com/nick-jonas-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/nick-jonas-1e493c/10372/huge.jpg","home_venue_id":null,"slug":"nick-jonas","score":0.59213,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/nick-jonas-1e493c/10372/huge.jpg"},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":10372,"genres":[{"slug":"pop","primary":true,"name":"pop"}]},{"stats":{"event_count":5},"name":"Calvin
@@ -328,20 +324,20 @@ http_interactions:
         University","extended_address":"Boston, MA 02215","url":"https://seatgeek.com/venues/boston-university/tickets/","country":"US","display_location":"Boston,
         MA","links":[],"slug":"boston-university","state":"MA","score":0.47799,"postal_code":"02215","location":{"lat":42.3417,"lon":-71.0855},"address":"264
         Huntington Ave.","timezone":"America/New_York","id":6054},"short_title":"A
-        Confederacy of Dunces - Boston","datetime_utc":"2015-12-11T00:30:00","datetime_tbd":false},{"links":[],"id":2682771,"stats":{"listing_count":19,"average_price":93.5,"lowest_price_good_deals":79.0,"lowest_price":79.0,"highest_price":111.0},"title":"Boston
+        Confederacy of Dunces - Boston","datetime_utc":"2015-12-11T00:30:00","datetime_tbd":false},{"links":[],"id":2475241,"stats":{"listing_count":11,"average_price":138.0,"lowest_price_good_deals":138.0,"lowest_price":138.0,"highest_price":180.0},"title":"Once
+        - Boston","announce_date":"2015-01-10T00:00:00","score":0.5746,"date_tbd":false,"type":"broadway_tickets_national","datetime_local":"2015-12-10T19:30:00","visible_until_utc":"2015-12-11T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"performers":[{"stats":{"event_count":126},"name":"Once","short_name":"Once","url":"https://seatgeek.com/once-tickets","type":"theater_broadway_national_tours","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/once-fc200d/12705/huge.jpg","home_venue_id":null,"primary":true,"score":0.44099,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/once-fc200d/12705/huge.jpg"},"slug":"once","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"has_upcoming_events":true,"id":12705},{"stats":{"event_count":14},"name":"Once
+        Boston","short_name":"Once Boston","url":"https://seatgeek.com/once-boston-tickets","type":"band","image":null,"home_venue_id":null,"slug":"once-boston","score":0.32229,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":346762},{"stats":{"event_count":60},"name":"Once","short_name":"Once","url":"https://seatgeek.com/once-3-tickets","type":"theater_broadway_national_tours","image":null,"home_venue_id":null,"slug":"once-3","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"has_upcoming_events":true,"id":371040}],"url":"https://seatgeek.com/once-boston-tickets/shubert-theatre-2015-12-10-7-30-pm/broadway/2475241/","created_at":"2015-01-10T00:00:00","venue":{"city":"Boston","name":"Shubert
+        Theatre","extended_address":"Boston, MA 02116","url":"https://seatgeek.com/venues/shubert-theatre/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"shubert-theatre","state":"MA","score":0.57668,"postal_code":"02116","location":{"lat":42.3504,"lon":-71.0654},"address":"265
+        Tremont St","timezone":"America/New_York","id":4485},"short_title":"Once -
+        Boston","datetime_utc":"2015-12-11T00:30:00","datetime_tbd":false},{"links":[],"id":2682771,"stats":{"listing_count":4,"average_price":77.0,"lowest_price_good_deals":68.0,"lowest_price":68.0,"highest_price":86.0},"title":"Boston
         Ballet - Boston","announce_date":"2015-07-09T00:00:00","score":0.52294,"date_tbd":false,"type":"dance_performance_tour","datetime_local":"2015-12-10T19:30:00","visible_until_utc":"2015-12-11T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"performers":[{"stats":{"event_count":29},"name":"Boston
         Ballet","short_name":"Boston Ballet","url":"https://seatgeek.com/boston-ballet-tickets","type":"theater_dance_performance_tour","image":null,"home_venue_id":null,"primary":true,"score":0.39197,"images":{},"slug":"boston-ballet","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"has_upcoming_events":true,"id":6688},{"stats":{"event_count":1119},"name":"The
         Nutcracker","short_name":"The Nutcracker","url":"https://seatgeek.com/the-nutcracker-tickets","type":"theater_dance_performance_tour","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-nutcracker-b25092/7746/huge.jpg","home_venue_id":null,"slug":"the-nutcracker","score":0.46033,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-nutcracker-b25092/7746/huge.jpg"},"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"has_upcoming_events":true,"id":7746}],"url":"https://seatgeek.com/boston-ballet-boston-tickets/dance/2015-12-10-7-30-pm/2682771/","created_at":"2015-07-09T00:00:00","venue":{"city":"Boston","name":"Boston
         Opera House","extended_address":"Boston, MA 02111","url":"https://seatgeek.com/venues/boston-opera-house/tickets/","country":"US","display_location":"Boston,
         MA","links":[],"slug":"boston-opera-house","state":"MA","score":0.62615,"postal_code":"02111","location":{"lat":42.3586,"lon":-71.0567},"address":"539
         Washington Street","timezone":"America/New_York","id":2501},"short_title":"Boston
-        Ballet - Boston","datetime_utc":"2015-12-11T00:30:00","datetime_tbd":false},{"links":[],"id":2475241,"stats":{"listing_count":11,"average_price":138.0,"lowest_price_good_deals":138.0,"lowest_price":138.0,"highest_price":180.0},"title":"Once
-        - Boston","announce_date":"2015-01-10T00:00:00","score":0.5746,"date_tbd":false,"type":"broadway_tickets_national","datetime_local":"2015-12-10T19:30:00","visible_until_utc":"2015-12-11T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"performers":[{"stats":{"event_count":126},"name":"Once","short_name":"Once","url":"https://seatgeek.com/once-tickets","type":"theater_broadway_national_tours","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/once-fc200d/12705/huge.jpg","home_venue_id":null,"primary":true,"score":0.44099,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/once-fc200d/12705/huge.jpg"},"slug":"once","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"has_upcoming_events":true,"id":12705},{"stats":{"event_count":14},"name":"Once
-        Boston","short_name":"Once Boston","url":"https://seatgeek.com/once-boston-tickets","type":"band","image":null,"home_venue_id":null,"slug":"once-boston","score":0.32229,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":346762},{"stats":{"event_count":60},"name":"Once","short_name":"Once","url":"https://seatgeek.com/once-3-tickets","type":"theater_broadway_national_tours","image":null,"home_venue_id":null,"slug":"once-3","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"has_upcoming_events":true,"id":371040}],"url":"https://seatgeek.com/once-boston-tickets/shubert-theatre-2015-12-10-7-30-pm/broadway/2475241/","created_at":"2015-01-10T00:00:00","venue":{"city":"Boston","name":"Shubert
-        Theatre","extended_address":"Boston, MA 02116","url":"https://seatgeek.com/venues/shubert-theatre/tickets/","country":"US","display_location":"Boston,
-        MA","links":[],"slug":"shubert-theatre","state":"MA","score":0.57668,"postal_code":"02116","location":{"lat":42.3504,"lon":-71.0654},"address":"265
-        Tremont St","timezone":"America/New_York","id":4485},"short_title":"Once -
-        Boston","datetime_utc":"2015-12-11T00:30:00","datetime_tbd":false},{"links":[],"id":2819763,"stats":{"listing_count":23,"average_price":447,"lowest_price_good_deals":null,"lowest_price":405,"highest_price":593},"title":"Joyce
+        Ballet - Boston","datetime_utc":"2015-12-11T00:30:00","datetime_tbd":false},{"links":[],"id":2819763,"stats":{"listing_count":23,"average_price":447,"lowest_price_good_deals":null,"lowest_price":405,"highest_price":593},"title":"Joyce
         Moreno","announce_date":"2015-09-28T00:00:00","score":0.56682,"date_tbd":false,"type":"concert","datetime_local":"2015-12-10T20:00:00","visible_until_utc":"2015-12-11T05:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"Joyce
         Moreno","short_name":"Joyce Moreno","url":"https://seatgeek.com/joyce-moreno-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"joyce-moreno","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":309980},{"stats":{"event_count":1},"name":"Joyce
         Moreno Meets Berklee","short_name":"Joyce Moreno Meets Berklee","url":"https://seatgeek.com/joyce-moreno-meets-berklee-tickets","type":"band","image":null,"home_venue_id":null,"slug":"joyce-moreno-meets-berklee","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":353773}],"url":"https://seatgeek.com/joyce-moreno-tickets/boston-massachusetts-berklee-performance-center-2015-12-10-8-pm/concert/2819763/","created_at":"2015-09-28T00:00:00","venue":{"city":"Boston","name":"Berklee
@@ -350,7 +346,7 @@ http_interactions:
         Massachusetts Ave.","timezone":"America/New_York","id":820},"short_title":"Joyce
         Moreno","datetime_utc":"2015-12-11T01:00:00","datetime_tbd":false}]}'
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 22:40:19 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:21 GMT
 - request:
     method: get
     uri: http://api.nytimes.com/svc/topstories/v1/home.json?api-key=86525eed4a3bdb9db188fa877ba76c63:14:73728927
@@ -372,13 +368,13 @@ http_interactions:
       message: OK
     headers:
       X-Mashery-Responder:
-      - prod-j-worker-atl-03.mashery.com
+      - prod-j-worker-atl-04.mashery.com
       X-Amz-Id-2:
-      - 4DGk4LypmNERUwCOrQYDDmg1X6XhWASntqHOZ6VPFuV7knc6sDmm9B93phV5SbmsWv5zhJ9OiNE=
+      - c9A+YDb+ifqJopiIf7V9kVTHm2BWDPP1jAIed7RbtjQ0phS1pZhcWTzICRJRICNn
       X-Amz-Request-Id:
-      - 16D6367827764BBD
+      - 5BAF8794189B6C03
       Date:
-      - Thu, 10 Dec 2015 22:40:19 GMT
+      - Thu, 10 Dec 2015 22:40:22 GMT
       Last-Modified:
       - Thu, 10 Dec 2015 22:40:18 GMT
       Etag:
@@ -818,5 +814,5 @@ http_interactions:
         left, Paige practices wiping her mouth and Richa learns to butter her bread.","copyright":"John
         Francis Peters for The New York Times"}]}]}'
     http_version: 
-  recorded_at: Thu, 10 Dec 2015 22:40:19 GMT
+  recorded_at: Thu, 10 Dec 2015 22:40:22 GMT
 recorded_with: VCR 2.5.0

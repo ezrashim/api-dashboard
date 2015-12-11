@@ -5,6 +5,6 @@ feature "news", vcr: true do
     visit '/'
 
     expect(page).to have_content("Today's Top Stories")
-    expect(page).to have_content()
+    expect(page).to have_content(/http:\/\/www.nytimes.com/)
   end
 end

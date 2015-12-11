@@ -28,7 +28,7 @@ attr_reader :data
       if datum["multimedia"] == nil || datum["multimedia"][0] == nil
         thumbnail = "default"
       else
-        thumbnail = datum["multimedia"][0]["url"]
+        thumbnail = datum["multimedia"][3]["url"]
       end
 
       abstract = datum["abstract"]

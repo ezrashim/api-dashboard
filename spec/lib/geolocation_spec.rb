@@ -12,7 +12,7 @@ RSpec.describe Geolocation, vcr: true do
 
     describe "#state" do
       it "returns the state based on ip" do
-        expect(geolocation.state).to eq("California")
+        expect(geolocation.state).to eq("CA")
       end
     end
 
@@ -40,7 +40,7 @@ RSpec.describe Geolocation, vcr: true do
 
     describe "#state" do
       it "returns Massachusetts" do
-        expect(geolocation.state).to eq("Massachusetts")
+        expect(geolocation.state).to eq("MA")
       end
     end
 
